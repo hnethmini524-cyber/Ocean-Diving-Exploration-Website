@@ -33,6 +33,7 @@ DeepDive is a premium, high-fidelity responsive frontend web application designe
 *  assets
 *  README.md
 
+Live Demo Link: [demo](https://6a147e0e0af0dc650bc3a474--quiet-biscuit-0e04b2.netlify.app/).
 
 ## 🎨 Design Inspiration & Credits
 
