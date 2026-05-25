@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Explore | DeepDive</title>
+  </head>
+  <body>
+    <section class="header_hero">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#" class="logo">DeepDive</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Explore</a></li>
+        </ul>
+        <div class="nav__btns">
+          <button class="btn" onclick="openBookingModal()">Start Your Dive</button>
+        </div>
+      </nav>
+      
+
+              <!------------- home section -------------->
+      <header id="home">
+        <div class="header__container">
+          <div class="header__content">
+            <p>DIVE INTO THE UNKNOWN</p>
+            <h1>Let Every Dive Reveal a New World!</h1>
+            <div class="header__btns">
+              <button class="btn">Explore More</button>
+              <a href="#">
+                <span><i class="ri-play-circle-fill"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <!------------- gallery section -------------->
+
+    <section class="section__container destination__container" id="gallery">
+      <h2 class="section__header">Discover Hidden Ocean Kingdoms</h2>
+      <p class="section__description">
+        Explore the world’s most beloved places.
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/sea-turtle.jpg" alt="destination image1" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Discover Hidden Coral Kingdoms</h4>
+              <p>Dive into breathtaking underwater places. Experience the beauty of nature of ocean.</p>
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/place1.jpg" alt="destination image2" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Explore the Mysteries of the Deep</h4>
+              <p>Journey through ancient underwater caves. Every dive reveals hidden landscapes of sea.</p>
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/place2.jpg" alt="destination image2" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Adventure Beyond the Surface</h4>
+              <p>Join guided deep ocean diving experiences with unforgettable encounters in underwater.</p>
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/place3.jpg" alt="destination image2" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Dive Into Untouched Depths</h4>
+              <p>Navigate through dramatic underwater caverns and discover remote locations. Designed for true ocean exploration.</p>
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/place4.jpg" alt="destination image2" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Witness Marine Life in Motion</h4>
+              <p>Swim alongside marine ecosystems while learning the importance of protecting fragile ocean habitats.</p>
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/sea-diver.jpg" alt="destination image3" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Feel the Freedom of the Ocean</h4>
+              <p>Experience peaceful underwater moments surrounded by crystal-clear waters and endless blue horizons.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------- packages section -------------->
+
+    <section class="section__container journey__container" id="packages">
+      <h2 class="section__header">Explore Your Ocean Adventure</h2>
+      <p class="section__description">
+        Choose the perfect underwater adventure designed for every level of ocean explorer.
+      </p>
+      <div class="journey__grid">
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Beginner Ocean Dive</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <p>
+              Perfect for first-time explorers looking to experience the beauty of the underwater world in a safe and guided environment. 
+              Includes basic scuba training, shallow reef diving, and professional instructor support throughout the journey.
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Deep Sea Adventure</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-landscape-fill"></i></span>
+            <p>
+              Designed for thrill-seekers ready to explore deeper ocean environments, underwater caves, and marine ecosystems rarely seen by ordinary divers. 
+              Experience unforgettable encounters beneath the surface with expert-led expeditions.
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-vip-diamond-fill"></i></span>
+            <h4>Premium Explorer Package</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-vip-diamond-fill"></i></span>
+            <p>
+              An exclusive luxury diving experience featuring private guided tours, underwater photography sessions, premium equipment, and 
+              access to some of the world’s most breathtaking deep ocean destinations. Perfect for passionate ocean adventurers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <!------------- about section -------------->
+
+    <section class="section__container showcase__container">
+      <div class="showcase__image-grid">
+        <div class="grid-img img-left">
+          <img src="assets/sea-turtle.jpg" alt="Sea life left" />
+        </div>
+        <div class="grid-img img-top-right">
+          <img src="assets/place2.jpg" alt="Coral top" />
+        </div>
+        <div class="grid-img img-bottom-right">
+          <img src="assets/place4.jpg" alt="Ocean bottom" />
+        </div>
+      </div>
+      <div class="showcase__content">
+        <h4>Dive Beyond the Surface</h4>
+        <p>
+          Discover the mystery of the deep with DeepDive Explorer — your gateway to hidden underwater worlds,
+          rare marine life, and breathtaking ocean landscapes that lie far beneath the surface. From glowing
+          coral reefs to the silent darkness of the abyss, every dive reveals a new layer of Earth’s final frontier.
+        </p>
+        <p>
+          Explore untouched dive sites, ancient shipwrecks, and vibrant ecosystems guided by expert insights
+          and real-time ocean knowledge. Each journey is designed to help you experience the ocean not just as
+          a destination, but as a living, breathing world full of wonder and discovery.
+        </p>
+        <p>Let DeepDive Explorer be your compass beneath the waves — guiding every descent with safety, curiosity,
+           and the spirit of deep-sea adventure.</p>
+        <div class="showcase__btn">
+          <button class="btn">
+            Explore Dive
+            <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <h4>9+</h4>
+        <p>Years Dive Experience</p>
+      </div>
+      <div class="banner__card">
+        <h4>10+</h4>
+        <p>Places Visited</p>
+      </div>
+      <div class="banner__card">
+        <h4>4.9</h4>
+        <p>Overall Ratings for all Divings</p>
+      </div>
+    </section>
+
+    <!-------------- reviews section---------------->
+    <div class="section__container_review" id="reviews">
+      <div class="header">
+        <h1>What our divers say about us.</h1>
+      </div>
+      <div class="testimonials__grid">
+        <div class="card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            My first deep-sea dive with this platform was unforgettable. The guides were extremely professional,
+            and the underwater views felt like another planet.
+          </p>
+          <hr />
+          <img src="assets/user1.jpg" alt="user" />
+          <p class="name">Kate Williumson</p>
+        </div>
+        <div class="card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            Everything was perfectly organized—from equipment briefing to the dive itself. I explored coral reefs
+            I never knew existed, all with complete safety and confidence.
+          </p>
+          <hr />
+          <img src="assets/user2.jpg" alt="user" />
+          <p class="name">James Watson</p>
+        </div>
+        <div class="card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            I always dreamed of exploring the ocean depths, and this experience made it real. The team handled
+            everything smoothly, even in challenging underwater conditions.
+          </p>
+          <hr />
+          <img src="assets/user3.jpg" alt="user" />
+          <p class="name">Anna Grace</p>
+        </div>
+      </div>
+    </div>
+    
+
+    <!------------- contact section -------------->
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">DeepDive</a>
+          </div>
+          <p>
+            Dive into a world beneath the surface where every journey reveals breathtaking marine life, 
+            hidden ocean depths, and unforgettable underwater adventures designed for true explorers.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +94 123456789
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-record-mail-line"></i></span> info@DeepDive
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> New York City
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Subscribe For More</h4>
+          <form action="#">
+            <input type="text" placeholder="Enter your name" />
+            <input type="text" placeholder="Enter your email" />
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2026 DeepDive.
+      </div>
+    </footer>
+
+    <!------------ pop up modal up for "start your dive" button --------->
+
+    <div class="booking-modal-overlay" id="bookingModal">
+  <div class="booking-modal-card">
+    
+    <button class="modal-close-btn" id="closeModalBtn" aria-label="Close modal">&times;</button>
+    
+    <div class="modal-header">
+      <h2>Prepare For Descent</h2>
+      <p>Reserve your deep sea diving slot below</p>
+    </div>
+
+    <form class="modal-booking-form" id="divingBookingForm">
+      
+      <div class="form-group">
+        <label for="modalPackage">Select Adventure Layer</label>
+        <select id="modalPackage" required>
+          <option value="" disabled selected>Choose your depth...</option>
+          <option value="beginner">Beginner Ocean Dive</option>
+          <option value="deepsea">Deep Sea Adventure</option>
+          <option value="premium">Premium Explore Package</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="modalDate">Target Date</label>
+          <input type="date" id="modalDate" required />
+        </div>
+        
+        <div class="form-group">
+          <label for="modalDivers">Number of Divers</label>
+          <input type="number" id="modalDivers" min="1" max="10" placeholder="1" required />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="modalName">Lead Diver Name</label>
+        <input type="text" id="modalName" minlength="3" placeholder="John Doe" required />
+      </div>
+
+      <div class="form-group">
+        <label for="modalEmail">Sub-Surface User Email</label>
+        <input type="email" id="modalEmail" placeholder="diver@deepdive.com" required />
+      </div>
+
+      <button type="submit" class="btn modal-submit-btn">Confirm Booking</button>
+    </form>
+
+    <div class="modal-success-state" id="modalSuccessState">
+      <div class="success-icon"><i class="ri-checkbox-circle-fill"></i></div>
+      <h3>Booking Confirmed!</h3>
+      <p>Prepare for your adventure. Your booking details have been transmitted via user email link.</p>
+    </div>
+
+  </div>
+</div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
