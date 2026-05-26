@@ -1,4 +1,4 @@
-# DeepDive Ocean-Diving-Exploration-Website
+# 🌊 DeepDive Ocean-Diving-Exploration-Website
 
 Immerse yourself in the world beneath the waves!
 DeepDive is a premium, high-fidelity responsive frontend web application designed for marine explorers, scuba enthusiasts, and underwater adventurers.
@@ -6,7 +6,7 @@ DeepDive is a premium, high-fidelity responsive frontend web application designe
 ✨ This project was inspired by a YouTube tutorial from *** "Web Design Mastery" *** channel.
 
 
-## 🧭 Features
+## Features
 
   * Hero Section – Inspiring diving message with call-to-action
   * Gallery – Cards displaying beautiful experiences
@@ -17,7 +17,7 @@ DeepDive is a premium, high-fidelity responsive frontend web application designe
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 *  Frontend: HTML, CSS, JavaScript
 *  Styling: CSS
@@ -25,7 +25,7 @@ DeepDive is a premium, high-fidelity responsive frontend web application designe
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 *  index.html
 *  styles.css
